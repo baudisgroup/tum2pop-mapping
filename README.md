@@ -14,7 +14,7 @@ First, you would like to create a working directory `$hostdir` (use absolute pat
 docker run -it --rm --mount type=bind,source=$hostdir,target=/data qingyao/tum2pop
 ```
 ### Example
-You need to download the /test folder [here] (https://github.com/qingyao/tum2pop-mapping/tree/master/test_data) and copy the absolute path as `$test_dir`.
+You need to download the /test folder [here] (https://github.com/baudisgroup/tum2pop-mapping/tree/master/test_data) and copy the absolute path as `$test_dir`.
 ```
 docker run -it --rm --mount type=bind,source=$test_dir,target=/data qingyao/tum2pop
 ```
